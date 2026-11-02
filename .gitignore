@@ -1,0 +1,38 @@
+# 构建产物
+build/
+build-arm64/
+bin/
+*.o
+*.a
+*.so
+demo
+talk_server
+
+# 第三方库（按 README 第 5 节自行获取）
+lvgl/
+
+# 媒体与素材
+pic/
+mpalyer/
+ppt_slides/
+*.mp4
+*.avi
+*.ttf
+
+# 运行日志
+*.log
+chatroom_log.txt
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# AI 协作配置
+.claude/
+CLAUDE.md
+
+# 备份
+.backup_*/
+*.bak
